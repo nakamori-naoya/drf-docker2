@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/drf_api"
+    ],
+    "python.analysis.extraPaths": [
+        "/drf_api"
+    ],
+    
+
+}
