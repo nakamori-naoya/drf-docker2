@@ -30,7 +30,7 @@ jobs:
       - checkout
       # CircleCIに登録した秘密鍵を呼び出す。
       - add_ssh_keys
-      - run: ssh ${USER_NAME}@${HOST_NAME} 'cd src/ && git pull  && docker-compose run web ./manage.py migrate'
+      - run: ssh ${USER_NAME}@${HOST_NAME} 'cd /Users/tech-camp/portfolios/next-type-api/drf-docker/ && git pull  && docker-compose run web ./manage.py migrate'
 
 
 
