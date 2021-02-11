@@ -33,6 +33,7 @@ jobs:
       - run: ssh ${USER_NAME}@${HOST_NAME} 'cd drf/ && git pull  && docker-compose run web ./manage.py migrate'
 
 
+
 # テストが成功した場合のみ、deployを実行するようにします。
 workflows:
   version: 2
